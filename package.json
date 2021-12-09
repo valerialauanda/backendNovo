@@ -1,0 +1,27 @@
+{
+  "name": "controle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "everyday-fun": "^1.1.0",
+    "express": "^4.17.1",
+    "html-pdf": "^2.2.0",
+    "knex": "^0.95.14",
+    "multer": "^1.4.2",
+    "react": "^17.0.2",
+    "react-scripts": "^4.0.3",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
